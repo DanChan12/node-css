@@ -1,0 +1,6 @@
+{
+    "mode":"watch",
+    "compile":"all",
+    "outputStyle":".wxss",
+    "path":"./test"
+}

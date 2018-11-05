@@ -1,0 +1,139 @@
+@import "func";
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* vuetify reset */
+button, input, optgroup, select, textarea {
+  font: initial; /* Specify font inheritance of form elements */
+}
+#app{
+  background: transparent !important;
+}
+.application {
+  line-height: 1;
+  font-size: 0;
+}
+.application--wrap{
+  height: 100%;
+}
+.theme--light{
+  background: transparent;
+}
+.v-icon{
+  font-size: pxToRem(40px);
+  vertical-align: middle;
+}
+
+// 输入框
+.v-input{
+  margin-top: 0;
+}
+.v-input__icon{
+  width: pxToRem(24px);
+  height: pxToRem(24px);
+}
+.v-select__slot{
+  // height: pxToRem(30px);
+  font-size: pxToRem(26px);
+  input{
+    height: pxToRem(38px);
+    padding: 0 pxToRem(10px);
+    vertical-align: middle;
+  }
+}
+
+// 列表
+.v-list{
+  padding: 0;
+}
+.v-list--dense {
+  padding: 0;
+  .v-list__tile:not(.v-list__tile--avatar){
+    min-height: pxToRem(100px);
+    height: auto;
+  }
+  .v-list__tile{
+    font-size: pxToRem(30px);
+  }
+}
+.v-list__tile{
+  font-size: pxToRem(26px);
+  height: pxToRem(48px);
+  padding: 0;
+}
+.v-list__tile__content{
+  overflow: auto;
+}
+.v-list__tile__title{
+  height: pxToRem(30px);
+  line-height: pxToRem(30px);
+  overflow: auto;
+}
+
+// 按钮
+.v-btn{
+  min-width: pxToRem(70px);
+  min-height: pxToRem(70px);
+  height: auto;
+  margin: pxToRem(6px);
+  border-radius: pxToRem(6px);
+  padding: 0;
+  font-size: pxToRem(20px);
+}
+.v-btn--floating {
+  width: pxToRem(70px);
+  height: pxToRem(70px);
+}

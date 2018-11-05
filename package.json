@@ -1,0 +1,22 @@
+{
+    "name": "node-css",
+    "version": "1.0.0",
+    "description": "watch compile less and scss",
+    "main": "node.js",
+    "scripts": {
+        "auto": "node lib/index.js",
+        "less": "node lib/index.js watch less",
+        "scss": "node lib/index.js watch scss",
+        "now": "node lib/index.js now",
+        "less-now": "node lib/index.js now less",
+        "scss-now": "node lib/index.js now scss"
+    },
+    "author": "Dan Chan",
+    "license": "ISC",
+    "devDependencies": {
+        "chokidar": "^2.0.4",
+        "less": "^3.8.1",
+        "log4js": "^3.0.6",
+        "node-sass": "^4.9.4"
+    }
+}

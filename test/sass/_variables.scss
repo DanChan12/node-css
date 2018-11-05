@@ -1,0 +1,25 @@
+@charset 'utf-8';
+
+$color-white: #fff; //[背景1] 纯白-内容板块背景 [文字1] 纯白-按钮文字、颜色背景上的文字
+$color-white-light: #f2f2f0; //[背景2] 浅白-页面底色
+$color-blue: #338aec;
+$blue-gradient-start: #19bbff; //[背景3] 蓝色渐变-按钮（从下至上  #19a6ff - #19bbff)   ，大小按钮投影大小不一致
+$blue-gradient-end: #19a6ff;
+$bg-grey-color: #f2f2f2;
+$bg-grey-color-dark: #ddd;
+
+$border-color: #e6e6e6; //[分隔线1] 版块内1px分隔线
+$txt-color-black: #333; //[文字2] 黑色-常见文字，包括标题、详情正文等
+$txt-color-grey-dark: #666; //[文字3] 深灰-二级文字
+$txt-color-grey: #999; //[文字4] 深灰-三级文字
+$txt-color-grey-light: #ccc; //[文字5] 浅灰-输入框类的提示文字，以及弱化的文字，如部分时间、评论数目等
+$txt-color-blue: #2196F3; //[文字6]蓝色- 可点击文字
+$txt-color-orange: #fa7d00;  //[文字6]桔红色- 重要醒目文字
+
+$font-size-large: 48px; //[48px] 帖子详情大标题
+$font-size-larger: 36px; //[36px] 顶部导航栏-栏目名称、大按钮文字
+$font-size-normal: 34px; //[30px] 最常见字号，列表类文字、正文等
+$font-size-normal-small: 30px;
+$font-size-smaller: 28px; //[28px] 帖子详情中  “投票”  的文字大小
+$font-size-small: 26px; //[24px] 常见的小字、辅助文字、小标题
+$font-size-tiny: 20px; //[20px] 帖子列表的  查看、评论数目
